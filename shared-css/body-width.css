@@ -1,0 +1,9 @@
+/*
+ * Wider note content in both Live Preview and Reading view.
+ * Obsidian applies --file-line-width when Readable line length is enabled.
+ */
+body,
+body.theme-light,
+body.theme-dark {
+  --file-line-width: min(1400px, 95%) !important;
+}
