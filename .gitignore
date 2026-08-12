@@ -1,3 +1,2 @@
 # Local backups and files exposed through the shared snippets junction.
-.obsidian/snippets.backup-*/
-.obsidian/snippets/*.css
+.obsidian/
