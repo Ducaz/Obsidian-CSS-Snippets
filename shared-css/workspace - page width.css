@@ -7,3 +7,21 @@ body.theme-light,
 body.theme-dark {
   --file-line-width: min(1400px, 95%) !important;
 }
+
+/* Laptop / small display */
+@media (max-width: 1440px) {
+  body,
+  body.theme-light,
+  body.theme-dark {
+    --file-line-width: min(960px, 95%) !important;
+  }
+}
+
+/* Ultrawide display */
+@media (min-width: 2560px) {
+  body,
+  body.theme-light,
+  body.theme-dark {
+    --file-line-width: min(1800px, 95%) !important;
+  }
+}
